@@ -23,7 +23,9 @@ vim.opt.rtp:prepend(lazypath)
 local opts = {}
 
 require("lazy").setup("plugins")
+-- require("neotex.core")
+-- require("neotex.bootstrap")
 
-vim.keymap.set('n', '<leader>n', ':Neotree filesystem reveal right<CR>', {})
-
-
+-- vim.keymap.set('n', '<leader>n', ':Neotree filesystem reveal right<CR>', {})
+-- vim.keymap.set('n', '<leader>n', ':Neotree toggle', {})
+vim.keymap.set('n', '<leader>n', ':Neotree toggle right<CR>', { noremap = true, silent = true })
