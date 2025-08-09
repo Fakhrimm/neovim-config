@@ -3,11 +3,13 @@ return {
   branch = "v3.x",
   dependencies = {
     "nvim-lua/plenary.nvim",
-    "nvim-tree/nvim-web-devicons", 
+    "nvim-tree/nvim-web-devicons",
     "MunifTanjim/nui.nvim",
   },
   opts = {
-    -- This is the key part to make it close automatically
+    window = {
+      position = "right",
+    },
     event_handlers = {
       {
         event = "file_opened",
@@ -16,6 +18,5 @@ return {
         end,
       },
     },
-  }
+  },
 }
-

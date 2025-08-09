@@ -1,7 +1,8 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
   "catppuccin": { "branch": "main", "commit": "f67b886d65a029f12ffa298701fb8f1efd89295d" },
-  "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
+  "lazy.nvim": { "branch": "main", "commit": "d8f26efd456190241afd1b0f5235fe6fdba13d4a" },
+  "mini.nvim": { "branch": "main", "commit": "4035ef97407a6661ae9ff913ff980e271a658502" },
   "neo-tree.nvim": { "branch": "v3.x", "commit": "e6645ecfcba3e064446a6def1c10d788c9873f51" },
   "nui.nvim": { "branch": "main", "commit": "53e907ffe5eedebdca1cd503b00aa8692068ca46" },
   "nvim-treesitter": { "branch": "master", "commit": "6587a5886873cce8698a47477224c30578b33a24" },
