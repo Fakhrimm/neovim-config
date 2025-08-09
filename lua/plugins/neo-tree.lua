@@ -5,6 +5,17 @@ return {
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons", 
     "MunifTanjim/nui.nvim",
+  },
+  opts = {
+    -- This is the key part to make it close automatically
+    event_handlers = {
+      {
+        event = "file_opened",
+        handler = function()
+          require("neo-tree").close_all()
+        end,
+      },
+    },
   }
 }
 
